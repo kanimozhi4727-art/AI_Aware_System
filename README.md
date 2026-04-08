@@ -190,4 +190,3 @@ launch_gradio()
 
 ---
 
-*Built with ❤️ for the hackathon — no real hardware required for demos!*
