@@ -1,0 +1,24 @@
+# Project Chitti v2 — Requirements
+# ===================================
+# Install with:  pip install -r requirements.txt
+
+# Core ML
+torch>=2.0.0
+numpy>=1.24.0
+
+# RL environment / audio simulation
+SpeechRecognition>=3.10.0   # real mic input (optional)
+
+# Text-to-Speech
+pyttsx3>=2.90               # offline TTS (primary)
+gTTS>=2.3.2                 # online TTS fallback
+
+# Hand gesture detection
+mediapipe>=0.10.0
+opencv-python-headless>=4.8.0  # use opencv-python if you need GUI window
+
+# Gradio demo interface
+gradio>=4.0.0
+
+# Audio playback helper for gTTS (Linux)
+# sudo apt-get install mpg123   (or afplay on macOS, aplay on Linux)
